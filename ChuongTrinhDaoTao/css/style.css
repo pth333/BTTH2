@@ -37,7 +37,7 @@
     /* justify-content: space-around; */
 }
 #active{
-    color:rgb(120, 40, 173);
+    color:rgb(0, 0, 0);
     text-shadow: 1px 1px hsl(258, 42%, 44%);
 }
  .main-menu .sub-menu{
