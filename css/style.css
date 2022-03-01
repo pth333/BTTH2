@@ -63,14 +63,17 @@ body{
 .sub-menu1{
     display: none;
 }
-.main-menu>li:hover .sub-menu{
+.main-menu li:hover .sub-menu{
     display: block;
-    position:absolute;
+    position: absolute;
     top: 25px;
     left: 0;
+    padding: 10px;
     background-color: #f4f4f4;
+    box-sizing: border-box;
     width: max-content;
 }
+
 .main-menu>li:hover .sub-menu li{
    padding: 5px;
    margin-bottom: 10px;
@@ -172,7 +175,6 @@ span{
     padding: 5px;
     text-decoration: none;
 }
-
 .widget-content1 li{
     padding-top: 20px;
     padding-bottom: 20px;
